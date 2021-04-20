@@ -162,9 +162,10 @@ for row in range(3):
             bg="light blue",
         ).grid(column=col, row=row) #especificação das coordenadas do botão
 
-#command está esperando uma ação. Sempre que o usuário clicar ele executa determinado comando. Mas qual botão q foi clicado?
-# daí a necessidade da classe "partial". Dessa class estão sendo informados 3 parâmetros: a função onclick_event está sendo colocada como parâmentro.
-#Essa ação será executada quando a ação acontecer. A função  "action_when_clicked" é diferente para cada botão.
+# command is waiting for an action. Whenever the user clicks, he or she executes a certain command. But which button was clicked?
+# Hence the need for the "partial" class. From this class, 3 parameters are informed. The "action_when_clicked" function is different for each button.
+
+
 # main loop
 window.mainloop() #mantém a janela aberta dentro de um while q só termina qdo a janela fecha
 
