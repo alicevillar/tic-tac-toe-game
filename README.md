@@ -12,21 +12,19 @@ The code is divided in two parts. Part one contains all the functions and Part 2
 
  
 ### PART 1: FUNCTIONS
-
-   *1 - FUNCTION onclick_event => this event is triggered when user clicks a button
-        Function to find a button by its name
-        Function to set button's value (X or O)
-        Function to check game over
-   *2 - FUNCTION getting_button_value => Returns button value/text (X or O)
-   *3 - FUNCTION checking_game_over  => returns True or False
-   *4 - FUNCTION reseting_game => clears all buttons text
-
+    1 - FUNCTION onclick_event => this event is triggered when user clicks a button
+         Function to find a button by its name
+         Function to set button's value (X or O)
+         Function to check game over
+    2 - FUNCTION getting_button_value => Returns button value/text (X or O)
+    3 - FUNCTION checking_game_over  => returns True or False
+    4 - FUNCTION reseting_game => clears all buttons text
 
 ###  PART 2: INITIALIZING TIC TAC TOE 
-    *1 - Creating and setting window properties
-    *2 - Creating font
-    *3 - Declaring initial value (X)
- 
+
+     1 - Creating and setting window properties
+     2 - Creating font
+     3 - Declaring initial value (X)
  
 ## Demo 
 
