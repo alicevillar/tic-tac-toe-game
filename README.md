@@ -11,7 +11,7 @@ Tic-tac-toe is a game for two players, cross 'X' and naught 'O', who take turns 
 The code is divided in two parts. Part one contains all the functions and Part 2 the initializations:
 
  
-### PART 1: FUNCTIONS
+### Part 1: Functions
     1 - FUNCTION onclick_event => this event is triggered when user clicks a button
          Function to find a button by its name
          Function to set button's value (X or O)
@@ -20,7 +20,7 @@ The code is divided in two parts. Part one contains all the functions and Part 2
     3 - FUNCTION checking_game_over  => returns True or False
     4 - FUNCTION reseting_game => clears all buttons text
 
-###  PART 2: INITIALIZING TIC TAC TOE 
+###  Part 2: Initializing Tic Tac Toe game  
 
      1 - Creating and setting window properties
      2 - Creating font
