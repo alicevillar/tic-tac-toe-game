@@ -2,7 +2,7 @@
 
 This is small project for TicTacToe game implementation in python using Tkinter. 
 
-## Description
+## Gameplay
 
 Tic-tac-toe is a game for two players, cross 'X' and naught 'O', who take turns marking the spaces in a 3×3 grid. Each player occupies a cell in turns and the goal is placing three marks in a horizontal, vertical, or diagonal pattern.  
 
