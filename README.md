@@ -1,4 +1,4 @@
-# TicTacToe game 
+# TicTacToe Game 
 
 This is small project for TicTacToe game implementation in python using Tkinter. 
 
