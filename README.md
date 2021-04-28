@@ -1,14 +1,14 @@
 # TicTacToe Game 
 
-This is small project for TicTacToe game implementation in python using Tkinter. 
+This is a small project for TicTacToe game implementation in Python using Tkinter. 
 
 ## Gameplay
 
-Tic-tac-toe is a game for two players, cross 'X' and naught 'O', who take turns marking the spaces in a 3×3 grid. Each player occupies a cell in turns and the goal is placing three marks in a horizontal, vertical, or diagonal pattern.  
+Tic-tac-toe is a game for two players, cross 'X' and naught 'O', who take turns marking the spaces in a 3×3 grid. Each player occupies a cell in turn. The goal is to place all three marks in a horizontal, vertical, or diagonal row.  
 
 ## Approach 
 
-The code is divided in two parts. Part one contains all the functions and Part 2 the initializations:
+The code is divided in two parts. Part one contains all the functions and Part 2 the initialization:
 
  
 #### Part 1: Functions
@@ -17,8 +17,8 @@ The code is divided in two parts. Part one contains all the functions and Part 2
          Function to set button's value (X or O)
          Function to check game over
     2 - FUNCTION getting_button_value => Returns button value/text (X or O)
-    3 - FUNCTION checking_game_over  => returns True or False
-    4 - FUNCTION reseting_game => clears all buttons text
+    3 - FUNCTION checking_game_over  => Returns True or False
+    4 - FUNCTION resetting_game => Clears all buttons text
 
 ####  Part 2: Initializing Tic Tac Toe game  
 
