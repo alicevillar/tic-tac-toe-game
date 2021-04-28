@@ -14,7 +14,7 @@ from tkinter.messagebox import showinfo
 #        Function to check game over
 #   2 - FUNCTION getting_button_value => Returns button value/text (X or O)
 #   3 - FUNCTION checking_game_over  => returns True or False
-#   4 - FUNCTION reseting_game => clears all buttons text
+#   4 - FUNCTION resetting_game => clears all buttons text
 #
 ####################################################################################
 
@@ -35,7 +35,7 @@ def onclick_event(row, col):
     # Checking if button has a value (X or O)
     if getting_button_value(row, col) == '':
         clicked_button.config(text=value)  # if it's empty then we set the value
-        # changing to next value
+        # Changing to next value
         if value == 'X':
             value = 'O'
         else:
@@ -47,7 +47,7 @@ def onclick_event(row, col):
     if gameover is True:
         print('Game Over!')
         showinfo("Game Over!", "Game over... click OK if you wish to restart :)")
-        reseting_game()
+        resetting_game()
 
 ####################################################################################
 #   PART 1.2: FUNCTION getting_button_value (returns the button value/text: X or O)
@@ -68,7 +68,7 @@ def getting_button_value(row,col):
 #  O  O  O - row 1
 #  O  O  O - row 2
 
-def checking_game_over(): # checking rows, colums and diagonals to see if they have the same value and are not empty
+def checking_game_over(): # checking rows, columns and diagonals to see if they have the same value and are not empty
 
     for n in [0,1,2]: # checking rows
         if getting_button_value(n, 0) == getting_button_value(n, 1) == getting_button_value(n, 2) != '':
@@ -86,10 +86,10 @@ def checking_game_over(): # checking rows, colums and diagonals to see if they h
 
 
 ###############################################################################
-        # PART 2.4: reseting_game => clears all buttons text
+        # PART 2.4: resetting_game => clears all buttons text
 ###############################################################################
 
-def reseting_game():
+def resetting_game():
     global value #using global variable value
     value='X' #as the game is reiniciated, it's necessary to start with X
 
@@ -120,10 +120,10 @@ def reseting_game():
              #   PART_1.1 - Creating and setting window properties
 ####################################################################################
 
-# Instanciating class Tk() -> This variable window is an object of class Tk() from library tkinter
+# Instanciating class Tk() -> This variable window is an object of class Tk()
 window=tk.Tk()
 
-# Disable window resizing (it means user will not be unable to resize the window)
+# Disabling window resizing (it means user will not be unable to resize the window)
 window.resizable(False, False)
 
 # Setting window title
@@ -133,14 +133,14 @@ window.title('Tic-Tac-Toe')
                              #   PART_1.2 - Creating font
 ####################################################################################
 
-# Creating an instance of the class Font(), which means I'm creating an object
+# Creating an instance of the class Font()
 font_helv36 = tkf.Font(family='Helvetica', size=33, weight='bold')
 
 ####################################################################################
                              #   Part_1.3 - Declaring initial value (X)
 ####################################################################################
 
-# initially, the variable "value" will receive "X"
+# Initially, the variable "value" will receive "X"
 value='X'
 
 
@@ -162,12 +162,13 @@ for row in range(3):
             bg="light blue",
         ).grid(column=col, row=row) #especificação das coordenadas do botão
 
-# command is waiting for an action. Whenever the user clicks, he or she executes a certain command. But which button was clicked?
-# Hence the need for the "partial" class. From this class, 3 parameters are informed. The "action_when_clicked" function is different for each button.
+# Command is waiting for an action. Whenever the user clicks, he or she executes a certain command.
+# But which button was clicked? Hence the need for the "partial" class. From this class, 3 parameters are informed.
+# The "action_when_clicked" function is different for each button.
 
 
 # main loop
-window.mainloop() #mantém a janela aberta dentro de um while q só termina qdo a janela fecha
+window.mainloop() # Aims to keep the window open until the user closes it.
 
-print('the end!')
+print('The End!')
 
