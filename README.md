@@ -1,7 +1,6 @@
 # TicTacToe Game 
 
-This is a small personal project for a fun little TicTacToe game with Tkinter and Python. As my first game, this was an opportunity to learn how to capture events from the keyboard and trigger a function. 
-
+This is a small personal project for a fun little TicTacToe game with Tkinter and Python.  
 
 ## Gameplay
 
